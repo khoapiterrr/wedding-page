@@ -1,0 +1,49 @@
+.captured-moments {
+  padding: 50px 5px;
+  .nav-item {
+    a.nav-link {
+      color: $color-grey;
+      text-decoration: none;
+    }
+    a.nav-link.active span {
+      padding-bottom: 2px;
+      border-bottom: 2px solid #b4d2c8;
+    }
+  }
+}
+
+.grid {
+  width: 100%;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 25%;
+  float: left;
+  height: auto;
+}
+.grid-item--width2 {
+  width: 40%;
+}
+.grid-item--width3 {
+  width: 60%;
+}
+
+.grid-item--height2 {
+  height: 200px;
+}
+.grid-item--height3 {
+  height: 260px;
+}
+.grid-item--height4 {
+  height: 360px;
+}

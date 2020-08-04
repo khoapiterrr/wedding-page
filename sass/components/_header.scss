@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  &-logo-wedding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+  }
+}
+/* Make the image fully responsive */
+.carousel-inner img {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  // overflow: hidden;
+  filter: opacity(90%) blur(1.5px);
+}
+#carouselDirect {
+  height: 100%;
+  width: 100%;
+}
+.carousel-direction {
+  z-index: 11;
+}
+.carousel-item {
+  height: 100% !important;
+}
+#ctrNavbar {
+  border-bottom: 0.6px solid rgba($color-grey, 0.3);
+}

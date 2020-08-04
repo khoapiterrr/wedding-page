@@ -1,0 +1,12 @@
+.intro {
+  &-couple {
+    padding: 50px 5px;
+    &-img {
+      display: inline-block;
+      text-align: center;
+      &-and {
+        height: 150px;
+      }
+    }
+  }
+}
